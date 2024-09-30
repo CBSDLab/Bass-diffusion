@@ -9,7 +9,7 @@ The system dynamics (SD) version of the Bass diffusion model of product growth i
 
 ![image](https://github.com/user-attachments/assets/8169bb0f-563e-4ab2-bb42-49bce8db29cd)
 
-Figure 1. Stella version of Bass model
+**Figure 1.** Stella version of Bass model
 
 1. $` Users(t) = \int_0^{u} Adoption(t)dt `$
 2. Adoption(t) = Innovation(t) +  Imitation(t)
@@ -22,7 +22,9 @@ Figure 1. Stella version of Bass model
 
 ![image](https://github.com/user-attachments/assets/a9cea467-e133-41e7-9887-484a9e98f695)
 
-Figure 2. Innovation and immitation over time
+Figure 2 shows the plots from simulating the model from 0 to 24 months using the equations above with a $DT=1/64$.
+
+**Figure 2.** Innovation and immitation over time
 
 ![image](https://github.com/user-attachments/assets/f03e5734-8156-480b-9d79-196ccb371f13)
 
