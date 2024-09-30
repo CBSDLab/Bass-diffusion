@@ -12,10 +12,13 @@ $$ dF/dt = p(1-F) + q(1-F)F $$
 Figure 1. 
 
 ![image](https://github.com/user-attachments/assets/a9cea467-e133-41e7-9887-484a9e98f695)
+
 Figure 2. 
 
 
 ![image](https://github.com/user-attachments/assets/f03e5734-8156-480b-9d79-196ccb371f13)
+
+Figure 3. 
 
 # References 
 
