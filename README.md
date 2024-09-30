@@ -30,7 +30,7 @@ Figure 2 shows the plots from simulating the model from 0 to 24 months using the
 
 **Figure 3.** Installed user base, $F(t)$, as proportion of potential users 
 
-
+Frank Bass extended the model to consider multiple generations of an innovation (Bass, 2004) and John Sterman (2000) presents a version of the Bass diffusion model as an alternative to SIR models of diffusion that addresses some of the limitations in the SI and SIR models of diffusion.
 
 # References 
 
