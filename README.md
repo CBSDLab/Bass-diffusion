@@ -1,5 +1,5 @@
 # Frank M. Bass (1967) model of product growth
-Bass model of product growth is based on Everett Rogers' diffusion of innovation theory (for an overview, see Rogers, 1995). The model describes the continuous process of product adoption where the installed base of users, $F(t)$, is a function of the coefficient of innovation, $p$, and coefficient of immitation, $q$, as a differential equation:
+Bass model of product growth is based on Everett Rogers' diffusion of innovation theory (for an overview, see Rogers, 1995). The model describes the continuous process of product adoption where the installed base as proportion of potential users, $F(t)$, is a function of the coefficient of innovation, $p$, and coefficient of immitation, $q$, as a differential equation:
 
 $$ dF/dt = p(1-F) + q(1-F)F $$
 
@@ -7,18 +7,19 @@ $$ dF/dt = p(1-F) + q(1-F)F $$
 
 
 
+
 ![image](https://github.com/user-attachments/assets/8169bb0f-563e-4ab2-bb42-49bce8db29cd)
 
-Figure 1. 
+Figure 1. Stella version of Bass model
 
 ![image](https://github.com/user-attachments/assets/a9cea467-e133-41e7-9887-484a9e98f695)
 
-Figure 2. 
+Figure 2. Innovation and immitation over time
 
 
 ![image](https://github.com/user-attachments/assets/f03e5734-8156-480b-9d79-196ccb371f13)
 
-Figure 3. 
+Figure 3. Installed user base, $F(t)$, as proportion of potential users 
 
 # References 
 
