@@ -3,10 +3,9 @@ Bass model of product growth is based on Everett Rogers' diffusion of innovation
 
 $$ dF/dt = p(1-F) + q(1-F)F $$
 
-# System dynamics version of Bass model of product growth
+# System dynamics version of Bass diffusion model of product growth
 
-
-
+The system dynamics (SD) version of the Bass diffusion model of product growth is shown n Figure 1. 
 
 ![image](https://github.com/user-attachments/assets/8169bb0f-563e-4ab2-bb42-49bce8db29cd)
 
@@ -15,7 +14,6 @@ Figure 1. Stella version of Bass model
 ![image](https://github.com/user-attachments/assets/a9cea467-e133-41e7-9887-484a9e98f695)
 
 Figure 2. Innovation and immitation over time
-
 
 ![image](https://github.com/user-attachments/assets/f03e5734-8156-480b-9d79-196ccb371f13)
 
