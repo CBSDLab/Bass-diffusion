@@ -13,7 +13,7 @@ Figure 1. Stella version of Bass model
 
 $$ Adoption(t) = Innovation(t) +  Imitation(t) $$
 
-$$Imitation(t) = Coefficient\_of\_Imitation \cdot Potential\_Users \cdot Users / (Users+Potential\_Users)$$
+$$Imitation(t) = \textit{Coefficient of Imitation} \cdot \textit{Potential Users} \cdot Users  (Users+\textit{Potential Users})$$
 
 Coefficient_of_Imitation = .5
 
