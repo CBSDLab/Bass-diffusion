@@ -15,6 +15,8 @@ $$ Adoption(t) = Innovation(t) +  Imitation(t) $$
 
 $$Imitation(t) = \textit{Coefficient of Imitation} \cdot \textit{Potential Users} \cdot Users  (Users+\textit{Potential Users})$$
 
+$$ \textbf{greatest} $$
+
 Coefficient_of_Imitation = .5
 
 Coefficient_of_Innovation = 0.05
