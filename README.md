@@ -11,28 +11,17 @@ The system dynamics (SD) version of the Bass diffusion model of product growth i
 
 Figure 1. Stella version of Bass model
 
-1. Adoption(t) = Innovation(t) +  Imitation(t) 
-2. Imitation(t) = Coefficient_of_Imitation(t) * Potential_Users(t) * Users / (Users + Potential_Users)
-3. 
+1. Users(t) = $$ int_0^{u} Adoption(t)dt$$
+2. Adoption(t) = Innovation(t) +  Imitation(t)
+3. Innovation(t) = Coefficient_of_Innovation(t) * Potential_Users(t)
+4. Imitation(t) = Coefficient_of_Imitation(t) * Potential_Users(t) * Users / (Users + Potential_Users)
+5. Coefficient_of_Imitation = 0.5
+6. Coefficient_of_Innovation = 0.05
+7. Initial_Potential_Users = 5E6
+8. F = Users(t)/Initial_Potential_Users
+9. 
+   
 
-$$ \textbf{greatest} $$
-
-Coefficient_of_Imitation = .5
-
-Coefficient_of_Innovation = 0.05
-
-F = Users/Initial_Potential_Users
-
-
- 
-
-
-    UNITS: Dimensionless
-
-    UNITS: Users/Month
-Initial_Potential_Users = 5E6
-    UNITS: Users
-Innovation = Coefficient_of_Innovation* Potential_Users
     UNITS: Users/Month
 Potential_Users(t) = Potential_Users(t - dt) + ( - Adoption) * dt
     INIT Potential_Users = Initial_Potential_Users
